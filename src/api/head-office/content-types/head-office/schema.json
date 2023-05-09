@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "head_offices",
+  "info": {
+    "singularName": "head-office",
+    "pluralName": "head-offices",
+    "displayName": "Head Office",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "openingDays": {
+      "type": "string"
+    },
+    "openingHours": {
+      "type": "string"
+    },
+    "streetAddress": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "postcode": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}

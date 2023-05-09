@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gym_locations",
+  "info": {
+    "singularName": "gym-location",
+    "pluralName": "gym-locations",
+    "displayName": "Gym Location",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "city": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "streetAddress": {
+      "type": "string"
+    },
+    "postcode": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

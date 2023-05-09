@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_text_array_benefits",
+  "info": {
+    "displayName": "benefits"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

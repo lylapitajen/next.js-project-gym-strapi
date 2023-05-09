@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "memberships",
+  "info": {
+    "singularName": "membership",
+    "pluralName": "memberships",
+    "displayName": "Membership"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "textArray": {
+      "displayName": "benefits",
+      "type": "component",
+      "repeatable": true,
+      "component": "text-array.benefits"
+    },
+    "banner": {
+      "type": "string"
+    },
+    "interval": {
+      "type": "string"
+    }
+  }
+}
